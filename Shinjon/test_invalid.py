@@ -49,7 +49,7 @@ try:
 
     # Submit
     driver.find_element(By.NAME, "update_patient_profile").click()
-    time.sleep(2)
+    time.sleep(5)
 
     # Check error message (if exists)
     try:

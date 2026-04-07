@@ -34,7 +34,7 @@ try:
     driver.execute_script("document.getElementsByName('emergency')[0].value='01812345678';")
 
     driver.find_element(By.NAME, "address").clear()
-    driver.find_element(By.NAME, "address").send_keys("Dhaka 1212")
+    driver.find_element(By.NAME, "address").send_keys("Dhaka, Uttara 1212")
 
     driver.find_element(By.NAME, "health_issues").clear()
     driver.find_element(By.NAME, "health_issues").send_keys("Diabetes")
